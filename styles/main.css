@@ -231,13 +231,91 @@
     width: 100%;
     border-radius: 5px;
   }
-  
+  .img1{
+    height: 390px;
+    width: 312px;
+    border-radius: 2rem;
+}
   .progress-bar span {
     display: block;
     height: 100%;
     background: #4b0082;
     border-radius: 5px;
   }
+  /* project */
+  /* Projects Section Styling */
+#projects {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column; /* Stack the heading and projects vertically */
+  align-items: center; /* Center the content horizontally */
+  justify-content: flex-start; /* Ensure the content starts from the top */
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project-btn {
+  display: inline-block;
+  background-color: #4b0082;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #7e7e7e;
+}
+
+  /* conatct */
   
   .arch_contact_us_duplicate * {
     font-family: Nunito, sans-serif;
